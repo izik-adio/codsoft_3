@@ -1,5 +1,6 @@
 import random
 import string
+import os
 
 # get the list of all alphabet in both lower and upercase
 letters = string.ascii_letters
@@ -9,6 +10,9 @@ symbols = "!#$%&()*+"
 
 # All number from 0-9
 numbers = string.digits
+
+# clear screen
+os.system("cls" if os.name == "nt" else "clear")
 
 # welcome the user
 print("Welcome to the PyPassword Generator!")
@@ -43,4 +47,4 @@ random.shuffle(password_list)
 # concatenate the string that has been generated and output the result
 password = "".join(password_list)
 
-print(f"Your newly generated password is: {password}")
+print(f"Your newly generated password is: {password}\n\n")
