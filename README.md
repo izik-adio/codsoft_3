@@ -1,3 +1,5 @@
+![Cover Image](./3.png)
+
 # PyPassword Generator
 
 Welcome to PyPassword Generator, a simple Python script that generates strong and random passwords for users. This script allows users to specify the desired length of the password and generates a password with a combination of letters (both uppercase and lowercase), numbers, and symbols.
